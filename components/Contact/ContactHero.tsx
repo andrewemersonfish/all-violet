@@ -1,12 +1,28 @@
+import Image from 'next/image';
+import changingPasture from '@/public/changing_pasture.jpg';
+
 const ContactHero = () => {
   return (
-    <div className="min-h-[60vh] flex items-center justify-center bg-gradient-to-b from-violet-900 to-background">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold mb-6">Contact Us</h1>
-        <p className="text-xl mb-8 max-w-2xl mx-auto px-4">
-          Get in touch with All Violet for bookings, press inquiries, or just to
-          say hello.
-        </p>
+    <div className="relative min-h-[50vh] flex items-center justify-center">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src={changingPasture}
+          alt="Pastoral scene with cows in a field"
+          fill
+          className="object-cover"
+          priority
+          quality={100}
+        />
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/30" />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center">
+        <h1 className="text-7xl font-bold text-white drop-shadow-lg">
+          Contact
+        </h1>
       </div>
     </div>
   );

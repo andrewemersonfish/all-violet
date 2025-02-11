@@ -1,15 +1,28 @@
-import Link from 'next/link';
+import Image from 'next/image';
+import milletSheep from '@/public/millet_sheep.jpeg';
 
 const HomeHero = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-violet-900 to-background">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold mb-6">All Violet</h1>
-        <p className="text-xl mb-8 max-w-2xl mx-auto px-4">
-          Experience the unique sound of All Violet, where alternative rock meets
-          ethereal melodies. Based in [Your City], we're crafting unforgettable
-          musical experiences.
-        </p>
+    <div className="relative min-h-screen flex items-center justify-center">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src={milletSheep}
+          alt="Pastoral scene with sheep and haystacks"
+          fill
+          className="object-cover"
+          priority
+          quality={100}
+        />
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black/30" />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center">
+        <h1 className="text-7xl font-bold mb-12 text-white drop-shadow-lg">
+          All Violet
+        </h1>
         <div className="flex items-center justify-center space-x-6">
           <a
             href="https://open.spotify.com/artist/3Tl61cVVcuxLyh41M9NA90?si=wNpxPcd2S92J_BOa1_xztQ"

@@ -23,7 +23,7 @@ const HomeReleases = () => {
     <section className="py-24 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-4xl font-bold mb-12 text-center">Latest Releases</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="max-w-2xl mx-auto space-y-12">
           {releases.map((release, index) => (
             <div
               key={index}
@@ -35,7 +35,7 @@ const HomeReleases = () => {
                   alt={release.title}
                   fill
                   className="object-cover"
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  sizes="(max-width: 768px) 100vw, 768px"
                 />
               </div>
               <div className="p-6">

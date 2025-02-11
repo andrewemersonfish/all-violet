@@ -1,12 +1,29 @@
+import Image from 'next/image';
+import changingPasture from '@/public/changing_pasture.jpg';
+
 const MusicHero = () => {
   return (
-    <div className="min-h-[60vh] flex items-center justify-center bg-gradient-to-b from-violet-900 to-background">
-      <div className="text-center">
-        <h1 className="text-6xl font-bold mb-6">Our Music</h1>
-        <p className="text-xl mb-8 max-w-2xl mx-auto px-4">
-          Explore our discography, from our latest releases to our earliest recordings.
-          Available on all major streaming platforms.
-        </p>
+    <div className="relative min-h-[50vh] flex items-center justify-center">
+      {/* Background Image */}
+      <div className="absolute inset-0">
+        <Image
+          src={changingPasture}
+          alt="Pastoral scene with cows in a field"
+          fill
+          className="object-cover object-center"
+          priority
+          quality={100}
+          sizes="100vw"
+        />
+        {/* Overlay - reduced opacity */}
+        <div className="absolute inset-0 bg-black/20" />
+      </div>
+
+      {/* Content */}
+      <div className="relative z-10 text-center">
+        <h1 className="text-7xl font-bold text-white drop-shadow-lg">
+          Music
+        </h1>
       </div>
     </div>
   );
