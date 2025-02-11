@@ -8,26 +8,16 @@ const ContactInfo = () => {
           <div className="space-y-8">
             <div>
               <h2 className="text-2xl font-semibold mb-2">Location</h2>
-              <p className="text-gray-300">Portland, Oregon</p>
+              <p className="text-gray-300">New York, NY</p>
             </div>
 
             <div>
               <h2 className="text-2xl font-semibold mb-2">Email</h2>
               <a 
-                href="mailto:booking@allviolet.band" 
+                href="mailto:allvioletband@gmail.com" 
                 className="text-violet-400 hover:text-violet-300 transition-colors"
               >
-                booking@allviolet.band
-              </a>
-            </div>
-
-            <div>
-              <h2 className="text-2xl font-semibold mb-2">Phone</h2>
-              <a 
-                href="tel:+15035550123" 
-                className="text-violet-400 hover:text-violet-300 transition-colors"
-              >
-                (503) 555-0123
+                allvioletband@gmail.com
               </a>
             </div>
           </div>
