@@ -20,8 +20,8 @@ const HomeHero = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center">
-        <h1 className="text-8xl font-bold mb-12 animate-flicker">
-          <span className="neon-text">All Violet</span>
+        <h1 className="text-8xl text-white title-text mb-12">
+          ALL VIOLET
         </h1>
         <div className="flex items-center justify-center space-x-6">
           <a
