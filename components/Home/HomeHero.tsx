@@ -28,7 +28,7 @@ const HomeHero = () => {
             href="https://open.spotify.com/artist/3Tl61cVVcuxLyh41M9NA90?si=wNpxPcd2S92J_BOa1_xztQ"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 bg-[#1DB954] hover:bg-[#1ed760] text-white rounded-full flex items-center justify-center transition-colors"
+            className="w-12 h-12 bg-white hover:bg-gray-100 text-black rounded-full flex items-center justify-center transition-colors"
             aria-label="Listen on Spotify"
           >
             <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
@@ -39,18 +39,18 @@ const HomeHero = () => {
             href="https://music.apple.com/us/artist/all-violet/1742844564"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 bg-[#FA243C] hover:bg-[#fb3e52] text-white rounded-full flex items-center justify-center transition-colors"
+            className="w-12 h-12 bg-white hover:bg-gray-100 text-black rounded-full flex items-center justify-center transition-colors"
             aria-label="Listen on Apple Music"
           >
             <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M18.344 16.174c-.32.85-.613 1.647-1.287 2.306-.88.864-1.787 1.018-2.726.513-.92-.493-1.8-.573-2.726 0-.973.597-1.787.426-2.666-.426-.92-.892-1.627-2.306-2.32-4.492-1.333-4.173-.88-7.636 1.033-9.069 1.353-1.005 2.706-.892 3.773.172.88.852 1.733.892 2.666.08 1.14-.98 2.374-1.13 3.654-.233 1.473 1.058 2.113 2.625 1.926 4.798-1.527.159-2.507 1.137-2.507 2.558 0 1.42.994 2.372 2.4 2.212.2.532.28.958.254 1.42l-.474.16zm-1.863-12.5c0 1.59-1.353 2.93-2.973 2.864-1.527-.053-2.826-1.444-2.706-2.93.12-1.59 1.42-2.824 3-2.758 1.513.053 2.679 1.337 2.679 2.824z"/>
+              <path d="M17.05 20.28c-.98 1.09-2.12 1.15-3.23.52-1.14-.65-2.19-.67-3.4 0-1.36.77-2.07.53-3.14-.63C3.33 14.85 4.66 6.32 9.41 6c1.19.05 2.06.59 2.82.61.76.02 1.74-.58 3.08-.62 2.65-.08 4.15 1.61 4.15 1.61s-2.44 1.48-2.44 4.28c0 3.42 2.95 4.51 2.95 4.51s-1.85 4.37-2.92 3.89zM15.2 3.4c1.05-1.47.91-3.4-.41-4.4-1.46 1.01-1.67 2.94-.5 4.42"/>
             </svg>
           </a>
           <a
             href="https://instagram.com/allvioletwastaken"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 bg-[#E4405F] hover:bg-[#e5547a] text-white rounded-full flex items-center justify-center transition-colors"
+            className="w-12 h-12 bg-white hover:bg-gray-100 text-black rounded-full flex items-center justify-center transition-colors"
             aria-label="Follow on Instagram"
           >
             <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
@@ -61,7 +61,7 @@ const HomeHero = () => {
             href="https://youtube.com/@allvioletwastaken"
             target="_blank"
             rel="noopener noreferrer"
-            className="w-12 h-12 bg-[#FF0000] hover:bg-[#ff1a1a] text-white rounded-full flex items-center justify-center transition-colors"
+            className="w-12 h-12 bg-white hover:bg-gray-100 text-black rounded-full flex items-center justify-center transition-colors"
             aria-label="Subscribe on YouTube"
           >
             <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
